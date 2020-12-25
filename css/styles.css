@@ -108,22 +108,20 @@ a:hover {
 
 .skill-box
 {
-  width: 50%;
   display: flex;
-  margin: 50px auto;
-}
-
-.skill-logo-container
-{
-  text-align: center;
-  margin: auto;
+  float: left;
+  margin: 2% 18%;
 }
 
 .skill-logo
 {
-  width: 100px;
-  height: 100px;
-  margin: 20px;
+  width: 5%;
+  margin: 5%;
+  padding: 2%;
+  border: solid;
+  border-width: 1px;
+  border-color: #595b83;
+  border-radius: 30px;
 }
 
 .skill-text
@@ -135,6 +133,11 @@ a:hover {
 {
   text-align: center;
   padding: 5%;
+}
+
+.contact-button
+{
+  margin-top: 4%;
 }
 
 .seventh-container {
