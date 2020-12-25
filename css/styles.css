@@ -41,7 +41,24 @@ a{
 }
 
 a:hover {
-  color: #132743;
+  color: #a685e2;
+}
+
+.button
+{
+  background-color: transparent;
+  border: solid;
+  border-width: 1px;
+  border-color: #595b83;
+  padding: 1.5%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover
+{
+  border-color: #a685e2;
 }
 
 
