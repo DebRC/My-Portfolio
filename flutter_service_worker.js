@@ -10,7 +10,7 @@ const RESOURCES = {
 "assets/assets/javascript.png": "518304ff71797a9892fcaf7af8a89aca",
 "assets/assets/linkedIn.png": "539e826d2e9efd907a4a487e3fd4c27a",
 "assets/assets/mail.png": "be55dd31f873b051908a67140412b63e",
-"assets/assets/profile1.png": "5cdecfcac4a3dbca8857b94130a68449",
+"assets/assets/profile1.png": "87fe09e1d2e1f6c452e6fcb8ac3135f5",
 "assets/assets/python.png": "64aeac68d191109b6041934d98b8847c",
 "assets/assets/quora.png": "37532a35eb60125da8de3bb05e043e8f",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -27,9 +27,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "0b630ab57099fc8d0ddc473606015f86",
-"/": "0b630ab57099fc8d0ddc473606015f86",
-"main.dart.js": "d1b938128c2e20fc6fff446463aef599",
+"index.html": "3bdfbd16b975cc1720c676ddcc3c900b",
+"/": "3bdfbd16b975cc1720c676ddcc3c900b",
+"main.dart.js": "26a19fbab9c1474448990e1e40672d0f",
 "manifest.json": "003269ac4e3cf7f7f1c9149748b4aef9",
 "version.json": "3d580c8884ce2e572a5ba7fd382bd4a3"
 };
