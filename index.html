@@ -1,61 +1,79 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <base href="/">
-
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="DebRC-Portfolio">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="DebRC-Portfolio">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>DebRC</title>
-  <link rel="manifest" href="manifest.json">
-
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '898786200';
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
-  <style>
-    .container {
-      width: 100vw;
-      height: 100vh;
-      display: flex; /* Default Axis is X*/
-      justify-content: center; /* Main Axis */
-      align-items: center; /* Cross Axis */
-    }
-    .indicator{
-      width: 50vw;
-    }
-</style>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>DebRC-Homepage</title>
+    <meta name="description" content="Debdoot Roy Chowdhury, aka DebRC, a Software Developer and Blockchain Researcher">
+    <link rel="icon" type="image/png" href="favicon.png", sizes="any">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="loading_indicator" class="container">
-    <img class="indicator" src="./assets/assets/loading.gif" />
-  </div>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
+    <div class="sidebar">
+        <img src="assets/dp-1.png" alt="DebRC-Picture" class="profile-img">
+        <div><h1>Debdoot Roy Chowdhury</h1>(He/Him)</div>
+        <p>M.Tech. (CSE) Student at <br> Indian Institute of Technology (IIT) Bombay</p>
+        <ul class="contact">
+            <li><i class="fa fa-map-pin" style="color:#DA4167"></i> Kolkata, India</li>
+            <li><a href="mailto:roychowdhurydebdoot@gmail.com" class="link" target="_blank"><i class="fa fa-envelope" style="color:#DA4167"></i> roychowdhurydebdoot@gmail.com</a></li>
+            <li><a href="mailto:debrc99@gmail.com" class="link" target="_blank"><i class="fa fa-envelope" style="color:#DA4167"></i> debrc99@gmail.com</a></li>
+            <li><a href="https://github.com/DebRC" target="_blank" class="link"><i class="fa fa-github" style="color:#DA4167"></i> GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/debdootrc/" target="_blank" class="link"><i class="fa fa-linkedin" style="color:#DA4167"></i> LinkedIn</a></li>
+        </ul>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://drive.google.com/file/d/1ipBxRJNCUmF9lmzXMcZlZl0nYOnzXcqy/view" target="_blank">Resume</a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <section class="bio">
+            <p><span class="high">H</span>ello, this is Debdoot Roy Chowdhury, an M.Tech. student of 
+                Computer Science & Engineering department at IIT Bombay. 
+                My research is dedicated to scalability of BlockChain (particularly Ethereum) using solutions 
+                in Layer 1 and Layer 2 like Sharding and Rollup, under Prof. Vinay J. Ribeiro of IIT Bombay.
+            </p>
+        </section>
+        <section class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><a href="https://www.iitb.ac.in/" target="_blank"><strong>Indian Institute of Technology Bombay</strong><br><span class="subtitle"><strong>M.Tech. in Computer Science Engineering</strong><br>2023-Present | CPI: 9.0</span></a></li>
+                <li><a href="https://gcect.ac.in/" target="_blank"><strong>Govt. College of Engineering and Ceramic Technology</strong><br><span class="subtitle"><strong>B.Tech. in Computer Science Engineering</strong><br>2019-2023 | CGPA: 9.76</span></a></li>
+                <li><a href="https://www.akgms.edu.in/" target="_blank"><strong>A.K. Ghosh Memorial High School</strong><br><span class="subtitle"><strong>Higher Secondary</strong><br><span class="subtitle">2018 | Percentage: 83.4</span></a></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Position of Responsibility</h2>
+            <ul>
+                <li><a href="" target="_blank"><strong>Interview Cooridnator</strong><br><span class="subtitle"><strong>IIT Bombay Placement Team</strong><br>Sep' 2023 - Dec' 2023</span></a></li>
+                <li><a href="" target="_blank"><strong>Teaching Assistant for Computer Networks (CS348+CS378)</strong><br><span class="subtitle"><strong>IIT Bombay</strong><br><span class="subtitle">July' 2024 - Dec' 2024</span></a></li>
+                <li><a href="" target="_blank"><strong>Teaching Assistant for Design and Analysis of Algorithms (CS218M)</strong><br><span class="subtitle"><strong>IIT Bombay</strong><br><span class="subtitle">July' 2023 - Aug' 2023</span></a></li>
+                <li><a href="" target="_blank"><strong>Teaching Assistant for Computer Programming and Utilization (CS101)</strong><br><span class="subtitle"><strong>IIT Bombay</strong><br><span class="subtitle">Jan' 2024 - May' 2024</span></a></li>
+                <li><a href="" target="_blank"><strong>President</strong><br><span class="subtitle"><strong>CodeChef GCECT Chapter</strong><br>Aug' 2021 - Jan' 2022</span></a></li>
+                <li><a href="" target="_blank"><strong>GATE Mentor</strong><br><span class="subtitle"><strong>GeeksForGeeks</strong><br><span class="subtitle">Nov' 2023 - Dec' 2023</span></a></li>
+                <li><a href="" target="_blank"><strong>Technical Content Reviewer Intern</strong><br><span class="subtitle"><strong>GeeksForGeeks</strong><br><span class="subtitle">Apr' 2023 - Jun' 2023</span></a></li>
+                <li><a href="" target="_blank"><strong>Technical Writing Intern</strong><br><span class="subtitle"><strong>GeeksForGeeks</strong><br><span class="subtitle">Dec' 2020 - May' 2021</span></a></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Achievements</h2>
+            <ul>
+                <li><a href="" target="_blank"><strong>All India Rank - 52</strong><br><span class="subtitle">GATE (CS/IT) 2023</span></a></li>
+                <li><a href="" target="_blank"><strong>Ranked 12 out of 500+</strong><br><span class="subtitle">GeeksForGeeks Technical Scripter Event 2021</span></a></li>
+                <li><a href="" target="_blank"><strong>Ranked 357 and 302 Globally out of 50000+</strong><br><span class="subtitle">CodeChef Sept. Long Challenge and Oct. Long Challenge</span></a></li>
+                <li><a href="" target="_blank"><strong>Ranked 182 Globally out of 8000+</strong><br><span class="subtitle">HackerRank HackFest 2020</span></a></li>
+            </ul>
+        </section>
+    </div>
+    <script src="scripts.js"></script>
+    <footer>
+        Updated July 2024.
+    </footer>
 </body>
 </html>
